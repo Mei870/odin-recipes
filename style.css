@@ -1,0 +1,71 @@
+.body {
+    background-color: antiquewhite;
+    font-family: Verdana, sans-serif;
+    margin: 50px;
+}
+
+.body .heading1,
+.body .button,
+.body .back_container {
+    text-align: center;
+}
+
+.body .heading1 {
+    color: brown;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* For Index page */
+
+.body .button {
+    display: block;
+    margin: 10px auto;
+    width: 350px;
+    padding: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: brown;
+    color: antiquewhite;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.body .button:hover {
+    background-color: olive;
+}
+
+/* For Recipe pages only */
+
+.body .photo {
+    display: block;
+    margin: auto;
+    border: 10px solid brown;
+}
+
+.body .description {
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 10px; /*this will overwrite the above for bottom margin*/
+    padding: 10px 20px; 
+    background-color: brown;
+    color: antiquewhite;
+    font-style: italic;
+}
+
+.body dt {
+    font-weight: bold;
+}
+
+.body .back {
+    display: inline-block;
+    margin-top: 20px;
+    color: brown;
+    text-decoration: none;
+}
+
+.body .back:hover{
+    color: olive;
+}
+    
